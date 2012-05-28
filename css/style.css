@@ -1,0 +1,111 @@
+/** 
+* Style rules for Demo page
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-bottom: 1em;
+}
+
+a {
+	color: #333;
+	font-weight:bold;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+body {
+	background:#ddd;
+	font: Verdana, Geneva, sans-serif;
+	color:#000;
+	text-shadow: 1px 0px 1px #fff;
+}
+
+#header h1 {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.slide h2, .slide p {
+}
+.slide h2 {
+	font:italic 24px Georgia, "Times New Roman", Times, serif;
+	letter-spacing:-1px;
+}
+.slide img {
+}
+#footer {
+	color: #000;
+	height:100px;
+	margin-top: 10px;
+}
+#footer p {
+	display:block;
+}
+
+/** 
+* Slideshow style rules.
+*/
+.slideshow {
+	position:relative;
+}
+
+.slideshow a {
+	color: #aaa;
+}
+
+.slideshow .slidesContainer {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	overflow: hidden;
+	position:relative;
+	background: #fff;
+}
+.slideshow .slidesContainer .slide {
+}
+
+/** 
+* Slideshow controls style rules.
+*/
+.slideshow .control {
+	display:block;
+	width:33px;
+	height:33px;
+	text-indent:-10000px;
+	position:absolute;
+	cursor: pointer;
+	margin: 0 -45px;
+}
+.leftControl {
+	top:45%;
+	left:0;
+}
+.rightControl {
+	top:45%;
+	right:0;
+}
+.slideshow .playcontrol {
+	text-decoration:underline;
+	cursor: pointer;
+	margin-right:5px;
+}
+
+.playcontrol
+{
+	text-align: center;
+	width: 100%;
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.playcontrol span
+{
+	padding-left: 10px;
+	padding-right: 10px;
+}
