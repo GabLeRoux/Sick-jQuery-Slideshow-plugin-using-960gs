@@ -6,7 +6,7 @@ Sick jQuery Slideshow plugin using 960gs is a simple jQuery Slideshow plugin usi
 Preview
 -------
 
-Comming soon, just download it to see it running ;)
+visit the Sick jQuery Slideshow plugin using 960gs [example page directly on github](http://gableroux.github.com/Sick-jQuery-Slideshow-plugin-using-960gs/)
 
 Features
 --------
